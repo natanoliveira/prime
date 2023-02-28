@@ -10,6 +10,7 @@ import Erro from './pages/Erro'
 
 // Componentes
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 function RoutesApp() {
     return (
@@ -22,6 +23,7 @@ function RoutesApp() {
 
                 <Route path="*" element={<Erro />} />
             </Routes>
+            <Footer />
         </BrowserRouter>
     )
 }
